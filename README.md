@@ -1,19 +1,21 @@
-# 🧥 Invisibility Cloak using Python & OpenCV
-
-Turn yourself invisible like Harry Potter!  
-This fun computer vision project uses Python and OpenCV to create an "invisibility cloak" effect using color detection and background subtraction.
+# 🕶️ Segma Cloak - Real-Time Body Segmentation Invisibility with MediaPipe & Python
 
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-blue)](https://opencv.org/)
-[![GitHub stars](https://img.shields.io/github/stars/meharuno/invisibility-cloak?style=social)](https://github.com/meharuno/invisibility-cloak/stargazers)
+[![MediaPipe](https://img.shields.io/badge/MediaPipe-Segmentation-orange)](https://google.github.io/mediapipe/)
+[![GitHub stars](https://img.shields.io/github/stars/meharuno/segma-cloak?style=social)](https://github.com/meharuno/segma-cloak/stargazers)
 
+> **Segma Cloak** is a real-time invisibility effect powered by MediaPipe's body segmentation — no colored cloth needed!
+
+Turn on **Phantom Mode** and disappear from your webcam with AI magic.  
+No green screen. No tricks. Just Python 🐍 and MediaPipe 💪.
 
 ---
 
 ## 🚀 Features
-- Real-time invisibility effect using webcam
-- Uses color detection (red/blue/green cloak)
-- Built with Python and OpenCV
+- ✅ Real-time body segmentation invisibility
+- ✅ No green screen, no colored cloak needed
+- ✅ Powered by MediaPipe + OpenCV
+- ✅ Fun Harry Potter-style *vanishing act* with AI!
 
 ---
 
@@ -21,38 +23,55 @@ This fun computer vision project uses Python and OpenCV to create an "invisibili
 
 - Python 3.6+
 - OpenCV
+- MediaPipe
 - NumPy
 
-Install the dependencies:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 ---
 ## 🎯 How It Works
-1. Capture the background frame.
+1. Captures a background frame (without you in it).
 
-2. Detect a specific color (e.g., red cloak).
+2. Uses MediaPipe's Selfie Segmentation to detect your body.
 
-3. Replace the cloak area with the background, making it invisible.
+3. Replaces your body area with the background, making you invisible.
+
 
 ---
 ## ▶️ Run the Project
 ```bash
-python cloak.py
+python segma_cloak.py
 ```
 Press 'q' to quit the camera window.
 
 ---
 ## 📝 Requirements File (requirements.txt)
 ```bash
+mediapipe
 opencv-python
 numpy
 ```
 ---
+## 🎥 Live Demo
+
+---
 ## 📚 Credits
-Inspired by openCV community tutorials and the Harry Potter universe. 🪄
+- Built with MediaPipe by Google
+
+- Inspired by the Harry Potter Invisibility Cloak idea 🪄
+
+- Segmentation magic powered by AI 🧠
 
 ---
 ## 🌟 Star This Repo
-If you like this project, give it a ⭐️ on GitHub!
+If you like Segma Cloak, give it a ⭐️ on GitHub!
+---
+## 📄 License
+This project is open-source under the MIT License.
+
+
+
+
