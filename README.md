@@ -2,7 +2,7 @@
 
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![MediaPipe](https://img.shields.io/badge/MediaPipe-Segmentation-orange)](https://google.github.io/mediapipe/)
-[![GitHub stars](https://img.shields.io/github/stars/meharuno/segma-cloak?style=social)](https://github.com/meharuno/segma-cloak/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/meharuno/Segma-Cloak?style=social)](https://github.com/meharuno/Segma-Cloak/stargazers)
 
 > **Segma Cloak** is a real-time invisibility effect powered by MediaPipe's body segmentation — no colored cloth needed!
 
